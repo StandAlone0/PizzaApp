@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.bottomNav.selectedItemId = R.id.item1
+        binding.bottomNav.id = R.id.bottomNav
+     //   binding.bottomNav.selectedItemId
+
     }
 }
